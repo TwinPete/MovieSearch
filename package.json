@@ -1,0 +1,15 @@
+{
+  "name": "movie-search",
+  "version": "1.0.0",
+  "description": "App for displaying Searching about Games",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "author": "Peter MAyrguendter",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
