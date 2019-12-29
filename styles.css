@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* ul{
+    list-style: none;
+}
+
+html{
+    font-size: 10px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ebebeb;
+}
+
+.searchbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.searchbar input{
+    height: 4rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    outline: none;
+}
+
+.searchbar .searchbar__button{
+    width: 100%;
+    height: 4rem;
+    background-color: #2247a3;
+    border-bottom: solid 1px #142a5a;
+    color: #fff;
+    font-size: 2.25rem;
+    font-family: "Helvetica Neue";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.searchbar .searchbar__button:hover{
+    background-color: #19367a;
+    color: #fff;
+}
+
+.searchResults{
+    margin-top: 8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.movie{
+    height: auto;
+    width: 100%;
+    max-width: 40rem;
+    font-family: "Helvetica Neue";
+    color: #333;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #d6d6d6;
+    border-radius: 2px;
+}
+
+
+
+.movie .movie__poster{
+    width: 100%;
+}
+
+.movie .movie__poster img{
+    height: auto;
+    width: 100%;
+}
+
+.movie .movie__info{
+    height: auto;
+    width: 100%;
+    padding: 2rem;
+}
+
+.movie .movie__info .movie__title{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    color: #2247a3;
+}
+
+
+.movie .movie__info .movie__director,
+.movie .movie__info .movie__actors,
+.movie .movie__info .movie__plot
+{
+   margin-bottom: 1rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+
+
+.movie .movie__info span .pre{
+    font-size: 1.8rem;
+}
+
+.movie .movie__info span .after{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
